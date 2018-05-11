@@ -1,0 +1,22 @@
+{
+  "name": "online-dictionary",
+  "version": "1.0.0",
+  "description": "This is web based online dictionary",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nitesh710/online-dictionary.git"
+  },
+  "author": "Nitesh Dehriya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nitesh710/online-dictionary/issues"
+  },
+  "homepage": "https://github.com/nitesh710/online-dictionary#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
