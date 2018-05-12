@@ -1,0 +1,16 @@
+<div class="container" style="margin-top: 50px;">
+	<form ng-submit="searchWord()">
+		<div class="form-group">
+			<input type="text" name="word" placeholder="Enter word to search.." class="form-control" ng-model="word" required>
+			<div align="center" style="margin-top: 8px;"><button type="submit" class="btn btn-primary btn-lg">Search</button></div>
+		</div>
+	</form>
+	<div class="jumbotron" ng-if="toggle">
+		<div ng-repeat="c in content">
+			<p style="font-size: 20px;">{{"-  " +c}}</p>
+		</div>
+	</div>
+	<div ng-if="notfound">
+		<p style="text-align: center; margin-top: 50px;" class="display-4">Definition Not Found!</p>
+	</div>
+</div>

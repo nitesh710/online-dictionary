@@ -1,0 +1,21 @@
+{
+  "name": "online-dictionary",
+  "description": "This is web based online dictionary",
+  "main": "server.js",
+  "authors": [
+    "Nitesh Dehriya"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/nitesh710/online-dictionary",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.6.9",
+    "bootstrap": "4.0.0"
+  }
+}

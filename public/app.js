@@ -1,0 +1,1 @@
+angular.module('dictApp', ['ngRoute','routes', 'homeController']);

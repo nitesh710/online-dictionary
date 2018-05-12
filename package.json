@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/nitesh710/online-dictionary#readme",
   "dependencies": {
+    "bower": "^1.8.4",
     "express": "^4.16.3"
   }
 }
