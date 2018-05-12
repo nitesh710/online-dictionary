@@ -4,6 +4,7 @@
 		<title>Online Dictionary</title>
 		
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<!-- <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css"> -->
 	</head>
 	<body ng-app="dictApp" ng-controller="homeCtrl">
@@ -18,10 +19,10 @@
 						<a class="nav-link" href="#/!">Home <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Contact</a>
+						<a class="nav-link" href="#!/contact">Contact</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">About</a>
+						<a class="nav-link" href="#!/about">About</a>
 					</li>
 				</ul>
 			</div>
@@ -29,6 +30,7 @@
 		<div class="container">
 			<div ng-view></div>
 		</div>
+		<div style="margin-top: 50px;" ng-include="'partials/footer.html'"></div>
 	</body>
 	<!-- <script type="text/script" src="./../bower_components/bootstrap/dist/js/bootstrap.min.js"></script> -->
 	<!-- <script type="text/script" src="./../bower_components/angular/angular.min.js"></script>
